@@ -1,8 +1,5 @@
-# Tasklist API
-Simple Tastklist api - Silex / Doctrine
-
-## API RESTFUL RODANDO EM ##
-http://tasklist-api.gebender.com.br
+# Tasklist APp
+Simple Tastklist app - Silex / Doctrine / Bootstrap
 
 ### Instalação ###
 * Clone este repo
@@ -10,17 +7,15 @@ http://tasklist-api.gebender.com.br
 
 `composer install`
 
-* Crie um banco de dados
-* Configure o banco em /App/Config.php
-* Persista o banco via Doctrine:
-
-`cd App`
-
-`../vendor/bin/doctrine orm:schema-tool:create`
-
 
 ### Testando ###
-Utilizando o Postman ou similares:
+Levante a aplicação em um webserver, ex:
+
+`php -S 0.0.0.0:8080`
+
+
+Execute a aplicação em um navegador
+http://localhost:8080
 
 
 ##### Para listar #####
